@@ -1,19 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import "animate.css/animate.min.css";
-import ScrollAnimation from './animation/scroll-animation';
+import WelcomePage from "./Pages/WelcomePage";
+import "./App.css";
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
 function App() {
-  
   return (
     <div className="App">
-      
-      <ScrollAnimation animateIn='fadeIn'>
-  <h1>
-    animateInxxxxx
-  </h1>
-</ScrollAnimation>
-      
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" component={WelcomePage}></Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

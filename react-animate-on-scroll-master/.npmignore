@@ -1,8 +1,0 @@
-demo
-node_modules
-gulpfile.js
-src
-karma.conf.js
-tests.webpack.js
-.gitignore
-.npmignore
