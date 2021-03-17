@@ -12,13 +12,14 @@ export default function About() {
         <h4>{"<ABOUT ME>"}</h4>
       </div>
       <div
+        className="ABOUTME"
         style={{
           display: "flex",
           justifyContent: "center",
           paddingLeft: "110px",
         }}
       >
-        <img src={Picture} width="380px"></img>
+        <img src={Picture} width="420px"></img>
         <div style={{ margin: "50px" }}>
           <p>
             I'm a developer and bio medical engineer.
