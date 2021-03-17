@@ -16,10 +16,7 @@ export default function Skill() {
       >
         <h4>{"<SKILL>"}</h4>
       </div>
-      <div
-        className="Skill"
-        style={{ display: "flex", justifyContent: "space-around" }}
-      >
+      <div style={{ display: "flex", justifyContent: "space-around" }}>
         <img
           className="tag"
           src={endtagskill}

@@ -113,11 +113,7 @@ p {
     justify-content: center;
     align-items: center;
   }
-  .Skill {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+
   .tag {
     display: none;
   }
