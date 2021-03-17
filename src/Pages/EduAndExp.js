@@ -210,7 +210,7 @@ export default function EducationAndExpirence() {
             marginRight: "44px",
           }}
         >
-          <h4>{"<EXPERIENCE>"}</h4>
+          <h4>{"</EXPERIENCE>"}</h4>
         </div>
       </div>
     </div>

@@ -15,6 +15,10 @@ export default function WelcomePage() {
     history.push("/home");
   }
 
+  function clickSocial() {
+    <alert>ssss</alert>;
+  }
+
   return (
     <div className="bg">
       <div className="WelcomePageBox">
@@ -41,11 +45,33 @@ export default function WelcomePage() {
         </div>
       </div>
       <div className="LogoSocial">
-        <img src={facebook} width="25px" style={{ margin: "5px" }} />
-        <img src={IG} width="25px" style={{ margin: "5px" }} />
-        <img src={Line} width="25px" style={{ margin: "5px" }} />
-        <img src={Phone} width="25px" style={{ margin: "5px" }} />
-        <img src={Email} width="25px" style={{ margin: "5px" }} />
+        <a onClick={clickSocial}>
+          <img
+            src={facebook}
+            width="25px"
+            style={{ margin: "5px", cursor: "pointer" }}
+          />
+        </a>
+        <img
+          src={IG}
+          width="25px"
+          style={{ margin: "5px", cursor: "pointer" }}
+        />
+        <img
+          src={Line}
+          width="25px"
+          style={{ margin: "5px", cursor: "pointer" }}
+        />
+        <img
+          src={Phone}
+          width="25px"
+          style={{ margin: "5px", cursor: "pointer" }}
+        />
+        <img
+          src={Email}
+          width="25px"
+          style={{ margin: "5px", cursor: "pointer" }}
+        />
       </div>
       <button
         style={{ borderRadius: "100%", width: "20px", height: "20px" }}
