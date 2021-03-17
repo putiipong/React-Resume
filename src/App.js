@@ -1,13 +1,17 @@
 import WelcomePage from "./Pages/WelcomePage";
+import HomePage from "./Pages/HomePage";
+import Skill from "./Pages/Skill";
 import "./App.css";
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={WelcomePage}></Route>
+          <Route exact path="/" component={WelcomePage}></Route>
+          <Route path="/home" component={HomePage}></Route>
+          <Route path="/skill" component={Skill}></Route>
         </Switch>
       </BrowserRouter>
     </div>

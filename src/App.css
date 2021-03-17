@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  /* color: #f5ecb8;
+  color: rgb(54, 110, 230);ฟ้า
+  color: rgb(189, 54, 230);
+  color: rgb(206, 118, 233); ม่วง
+  color: rgb(230, 148, 54);ส้ม
+  color: rgb(57, 150, 77);เขียว */
 }
 .bg {
   background-color: #f5ecb8;
@@ -58,4 +64,38 @@
   justify-content: flex-end;
   align-items: flex-end;
   margin-right: -20px;
+}
+
+h1 {
+  color: rgb(206, 118, 233);
+}
+
+h2 {
+  color: rgb(54, 110, 230);
+}
+h3 {
+  color: rgb(74, 125, 235);
+}
+h4 {
+  color: rgb(189, 54, 230);
+  color: rgb(230, 148, 54);
+}
+
+h5 {
+  color: rgb(206, 118, 233);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h6 {
+  color: whitesmoke;
+  font-style: normal;
+}
+
+address {
+  color: whitesmoke;
+}
+
+p {
+  color: whitesmoke;
 }
