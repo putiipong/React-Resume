@@ -11,7 +11,13 @@ export default function About() {
       >
         <h4>{"<ABOUT ME>"}</h4>
       </div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          paddingLeft: "110px",
+        }}
+      >
         <img src={Picture} width="380px"></img>
         <div style={{ margin: "50px" }}>
           <p>

@@ -9,6 +9,7 @@ export default function HomePage() {
       style={{
         backgroundColor: "black",
         minHeight: "100vh",
+        minWidth: "100vh",
       }}
     >
       <WelcomePage />

@@ -21,7 +21,7 @@ export default function EducationAndExpirence() {
           <div style={{ display: "flex" }}>
             <div
               style={{
-                borderRight: "2px dashed black",
+                borderRight: "2px dashed white",
                 paddingRight: "30px",
                 marginRight: "20px",
               }}
@@ -49,7 +49,7 @@ export default function EducationAndExpirence() {
           <div style={{ display: "flex", marginTop: "20px" }}>
             <div
               style={{
-                borderRight: "2px dashed black",
+                borderRight: "2px dashed white",
                 paddingRight: "30px",
                 marginRight: "20px",
               }}
@@ -86,7 +86,7 @@ export default function EducationAndExpirence() {
 
       <div
         style={{
-          borderLeft: "2px solid black",
+          // borderLeft: "2px solid white",
           marginLeft: "20px",
           paddingLeft: "50px",
         }}
@@ -98,7 +98,7 @@ export default function EducationAndExpirence() {
           <div style={{ display: "flex", marginTop: "20px" }}>
             <div
               style={{
-                borderRight: "2px dashed black",
+                borderRight: "2px dashed white",
                 paddingRight: "30px",
                 marginRight: "20px",
               }}
@@ -122,7 +122,7 @@ export default function EducationAndExpirence() {
           <div style={{ display: "flex", marginTop: "20px" }}>
             <div
               style={{
-                borderRight: "2px dashed black",
+                borderRight: "2px dashed white",
                 paddingRight: "30px",
                 marginRight: "20px",
               }}
@@ -146,7 +146,7 @@ export default function EducationAndExpirence() {
           <div style={{ display: "flex", marginTop: "20px" }}>
             <div
               style={{
-                borderRight: "2px dashed black",
+                borderRight: "2px dashed white",
                 paddingRight: "30px",
                 marginRight: "20px",
               }}
@@ -176,7 +176,7 @@ export default function EducationAndExpirence() {
           <div style={{ display: "flex", marginTop: "20px" }}>
             <div
               style={{
-                borderRight: "2px dashed black",
+                borderRight: "2px dashed white",
                 paddingRight: "30px",
                 marginRight: "20px",
               }}
@@ -203,7 +203,13 @@ export default function EducationAndExpirence() {
             </div>
           </div>
         </div>
-        <div style={{ display: "flex", justifyContent: "flex-end" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "flex-end",
+            marginRight: "44px",
+          }}
+        >
           <h4>{"<EXPERIENCE>"}</h4>
         </div>
       </div>

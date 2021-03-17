@@ -41,13 +41,15 @@ export default function WelcomePage() {
         </div>
       </div>
       <div className="LogoSocial">
-        <img src={facebook} style={{ margin: "5px" }} />
-        <img src={IG} style={{ margin: "5px" }} />
-        <img src={Line} style={{ margin: "5px" }} />
-        <img src={Phone} style={{ margin: "5px" }} />
-        <img src={Email} style={{ margin: "5px" }} />
+        <img src={facebook} width="25px" style={{ margin: "5px" }} />
+        <img src={IG} width="25px" style={{ margin: "5px" }} />
+        <img src={Line} width="25px" style={{ margin: "5px" }} />
+        <img src={Phone} width="25px" style={{ margin: "5px" }} />
+        <img src={Email} width="25px" style={{ margin: "5px" }} />
       </div>
-      <div>dddd</div>
+      <button
+        style={{ borderRadius: "100%", width: "20px", height: "20px" }}
+      ></button>
     </div>
   );
 }
