@@ -1,4 +1,3 @@
-import { useHistory } from "react-router-dom";
 import React from "react";
 import hellologo from "../Image/hello.png";
 import Ilogo from "../Image/Ilogo.png";
@@ -7,18 +6,16 @@ import IG from "../Image/instagram.png";
 import Line from "../Image/line-logo.png";
 import Phone from "../Image/phone-call.png";
 import Email from "../Image/email.png";
+import {
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  PopoverHeader,
+  PopoverBody,
+  PopoverArrow,
+} from "@chakra-ui/react";
 
 export default function WelcomePage() {
-  let history = useHistory();
-
-  function handleResumeClick() {
-    history.push("/home");
-  }
-
-  function clickSocial() {
-    <alert>ssss</alert>;
-  }
-
   return (
     <div className="bg">
       <div className="WelcomePageBox">
@@ -45,37 +42,111 @@ export default function WelcomePage() {
         </div>
       </div>
       <div className="LogoSocial">
-        <a onClick={clickSocial}>
-          <img
-            src={facebook}
-            width="25px"
-            style={{ margin: "5px", cursor: "pointer" }}
-          />
-        </a>
-        <img
+        <Popover>
+          <PopoverTrigger>
+            <img
+              src={facebook}
+              width="25px"
+              style={{ margin: "5px", cursor: "pointer" }}
+            />
+          </PopoverTrigger>
+          <PopoverContent style={{ backgroundColor: "white" }}>
+            <PopoverArrow />
+            <PopoverHeader>FB:Putipong Moramontree</PopoverHeader>
+            <PopoverBody>
+              <a href="https://www.facebook.com/jack.putii/">
+                Putipong Moramontree
+              </a>
+            </PopoverBody>
+          </PopoverContent>
+        </Popover>
+        {/* <img
+          src={facebook}
+          width="25px"
+          style={{ margin: "5px", cursor: "pointer" }}
+        /> */}
+        <Popover>
+          <PopoverTrigger>
+            <img
+              src={IG}
+              width="25px"
+              style={{ margin: "5px", cursor: "pointer" }}
+            />
+          </PopoverTrigger>
+          <PopoverContent style={{ backgroundColor: "white" }}>
+            <PopoverArrow />
+            <PopoverHeader>IG:putiipong.m</PopoverHeader>
+            <PopoverBody>
+              <a href="https://www.instagram.com/putiipong.m/">putiipong.m</a>
+            </PopoverBody>
+          </PopoverContent>
+        </Popover>
+
+        {/* <img
           src={IG}
           width="25px"
           style={{ margin: "5px", cursor: "pointer" }}
-        />
-        <img
+        /> */}
+        <Popover>
+          <PopoverTrigger>
+            <img
+              src={Line}
+              width="25px"
+              style={{ margin: "5px", cursor: "pointer" }}
+            />
+          </PopoverTrigger>
+          <PopoverContent style={{ backgroundColor: "white" }}>
+            <PopoverArrow />
+            <PopoverHeader>Line ID : putiipong.m</PopoverHeader>
+            <PopoverBody>
+              <a href="https://line.me/ti/p/nJQt98mamy">Click to add</a>
+            </PopoverBody>
+          </PopoverContent>
+        </Popover>
+        {/* <img
           src={Line}
           width="25px"
           style={{ margin: "5px", cursor: "pointer" }}
-        />
-        <img
+        /> */}
+        <Popover>
+          <PopoverTrigger>
+            <img
+              src={Phone}
+              width="25px"
+              style={{ margin: "5px", cursor: "pointer" }}
+            />
+          </PopoverTrigger>
+          <PopoverContent style={{ backgroundColor: "white" }}>
+            <PopoverArrow />
+            <PopoverHeader>Phone:</PopoverHeader>
+            <PopoverBody>063-421-9781</PopoverBody>
+          </PopoverContent>
+        </Popover>
+        {/* <img
           src={Phone}
           width="25px"
           style={{ margin: "5px", cursor: "pointer" }}
-        />
-        <img
+        /> */}
+        <Popover>
+          <PopoverTrigger>
+            <img
+              src={Email}
+              width="25px"
+              style={{ margin: "5px", cursor: "pointer" }}
+            />
+          </PopoverTrigger>
+          <PopoverContent style={{ backgroundColor: "white" }}>
+            <PopoverArrow />
+            <PopoverHeader>Email:</PopoverHeader>
+            <PopoverBody>Putiipong@hotmail.com</PopoverBody>
+          </PopoverContent>
+        </Popover>
+        {/* <img
           src={Email}
           width="25px"
           style={{ margin: "5px", cursor: "pointer" }}
-        />
+        /> */}
       </div>
-      <button
-        style={{ borderRadius: "100%", width: "20px", height: "20px" }}
-      ></button>
     </div>
   );
 }
