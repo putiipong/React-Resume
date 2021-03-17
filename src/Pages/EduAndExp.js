@@ -1,6 +1,6 @@
 export default function EducationAndExpirence() {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="EduandExp" style={{ display: "flex" }}>
       <div style={{ display: "flex", flexDirection: "column" }}>
         <div
           style={{

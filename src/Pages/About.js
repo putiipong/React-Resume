@@ -1,7 +1,7 @@
 import Picture from "../Image/Jack_cover.jpg";
 export default function About() {
   return (
-    <div>
+    <div className="ABOUTME">
       <div
         style={{
           display: "flex",

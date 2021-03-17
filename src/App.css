@@ -102,5 +102,23 @@ p {
   color: whitesmoke;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
+  .ABOUTME {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .EduandExp {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Skill {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tag {
+    display: none;
+  }
 }

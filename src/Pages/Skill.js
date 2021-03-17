@@ -6,7 +6,7 @@ import tagskill from "../Image/tagskill.png";
 import endtagskill from "../Image/endtagskill.png";
 export default function Skill() {
   return (
-    <div>
+    <div className="Skill">
       <div
         style={{
           display: "flex",
@@ -16,13 +16,26 @@ export default function Skill() {
       >
         <h4>{"<SKILL>"}</h4>
       </div>
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
-        <img src={endtagskill} height="98px" style={{ marginLeft: "80px" }} />
+      <div
+        className="Skill"
+        style={{ display: "flex", justifyContent: "space-around" }}
+      >
+        <img
+          className="tag"
+          src={endtagskill}
+          height="98px"
+          style={{ marginLeft: "80px" }}
+        />
         <img src={htmllogo} height="98px" />
         <img src={csslogo} height="98px" />
         <img src={javascriptlogo} height="98px" />
         <img src={Reactlogo} height="98px" />
-        <img src={tagskill} height="98px" style={{ marginRight: "80px" }} />
+        <img
+          className="tag"
+          src={tagskill}
+          height="98px"
+          style={{ marginRight: "80px" }}
+        />
       </div>
       <div
         style={{
