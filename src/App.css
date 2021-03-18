@@ -117,4 +117,15 @@ p {
   .tag {
     display: none;
   }
+  .margin {
+    margin-right: -30px !important;
+  }
+}
+@media screen and (max-height: 1000px) {
+  .bg {
+    min-height: 30vh;
+  }
+  .margin {
+    margin-right: 0px;
+  }
 }

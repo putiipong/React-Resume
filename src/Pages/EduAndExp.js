@@ -204,6 +204,7 @@ export default function EducationAndExpirence() {
           </div>
         </div>
         <div
+          className="margin"
           style={{
             display: "flex",
             justifyContent: "flex-end",
