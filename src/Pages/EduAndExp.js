@@ -1,7 +1,94 @@
+import ScreenshotResume from "../Image/Resume.png";
+import ScreenshotShopping from "../Image/Shopping.png";
+
 export default function EducationAndExpirence() {
   return (
     <div className="EduandExp" style={{ display: "flex" }}>
       <div style={{ display: "flex", flexDirection: "column" }}>
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "flex-start",
+              marginLeft: "80px",
+            }}
+          >
+            <h4>{"<PROJECT>"}</h4>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              marginLeft: "110px",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+              }}
+            >
+              <a href="https://react-resume-five.vercel.app/">
+                <img
+                  src={ScreenshotResume}
+                  width="250px"
+                  height="130px"
+                  alt="Preview Screenshot of react-resume-five.vercel.app"
+                  style={{ cursor: "pointer" }}
+                />
+              </a>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  marginTop: "10px",
+                }}
+              >
+                <h5>RESUME-REACT</h5>
+              </div>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                marginLeft: "20px",
+              }}
+            >
+              <a href="https://github.com/putiipong/Shopping">
+                <img
+                  src={ScreenshotShopping}
+                  width="250px"
+                  height="130px"
+                  style={{ cursor: "pointer" }}
+                  alt="Preview Screenshot of Shopping"
+                />
+              </a>
+
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  marginTop: "10px",
+                }}
+              >
+                <h5>SHOPPING-WEB</h5>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "flex-end",
+            }}
+          >
+            <h4>{"</PROJECT>"}</h4>
+          </div>
+        </div>
         <div
           style={{
             display: "flex",
