@@ -191,13 +191,38 @@ export default function EducationAndExpirence() {
               }}
             >
               <h5>
-                NOV
+                MAR
                 <br />
-                2020
+                2021
                 <br />-<br />
                 PRE
                 <br />
                 SENT
+              </h5>
+            </div>
+            <div>
+              <h5>Frontend Developer</h5>
+              <h5>Chomchobgroup Co.,Ltd.</h5>
+              <h6>- Web Developer</h6>
+            </div>
+          </div>
+
+          <div style={{ display: "flex", marginTop: "20px" }}>
+            <div
+              style={{
+                borderRight: "2px dashed white",
+                paddingRight: "30px",
+                marginRight: "20px",
+              }}
+            >
+              <h5>
+                NOV
+                <br />
+                2020
+                <br />-<br />
+                FEB
+                <br />
+                2021
               </h5>
             </div>
             <div>

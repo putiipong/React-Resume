@@ -1,4 +1,4 @@
-import { ChakraProvider } from "@chakra-ui/react";
+// import { ChakraProvider } from "@chakra-ui/react";
 import HomePage from "./Pages/HomePage";
 import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";

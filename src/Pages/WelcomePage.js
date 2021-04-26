@@ -1,4 +1,5 @@
 import React from "react";
+// import ClipboardJS from "clipboard";
 import hellologo from "../Image/hello.png";
 import Ilogo from "../Image/Ilogo.png";
 import facebook from "../Image/facebook.png";
@@ -16,6 +17,7 @@ import {
 } from "@chakra-ui/react";
 
 export default function WelcomePage() {
+  // new ClipboardJS("#copy");
   return (
     <div className="bg">
       <div className="WelcomePageBox">
@@ -141,6 +143,12 @@ export default function WelcomePage() {
             <PopoverBody>Putiipong@hotmail.com</PopoverBody>
           </PopoverContent>
         </Popover>
+        {/* <input id="foo" type="text" />
+        <button
+          id="copy"
+          data-clipboard-action="copy"
+          data-clipboard-target="#foo"
+        ></button> */}
         {/* <img
           src={Email}
           width="25px"
