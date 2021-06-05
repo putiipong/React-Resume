@@ -1,5 +1,6 @@
 import ScreenshotResume from "../Image/Resume.png";
 import ScreenshotShopping from "../Image/Shopping.png";
+import ScreenshotHomeservice from "../Image/homeservice.png";
 
 export default function EducationAndExpirence() {
   return (
@@ -18,68 +19,116 @@ export default function EducationAndExpirence() {
           <div
             style={{
               display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
+              flexDirection: "column",
+              // justifyContent: "center",
+              // alignItems: "center",
               marginLeft: "110px",
             }}
           >
             <div
               style={{
                 display: "flex",
-                flexDirection: "column",
                 justifyContent: "center",
+                alignItems: "center",
+                // marginLeft: "110px",
               }}
             >
-              <a href="https://react-resume-five.vercel.app/">
-                <img
-                  src={ScreenshotResume}
-                  width="250px"
-                  height="130px"
-                  alt="Preview Screenshot of react-resume-five.vercel.app"
-                  style={{ cursor: "pointer" }}
-                />
-              </a>
               <div
                 style={{
                   display: "flex",
+                  flexDirection: "column",
                   justifyContent: "center",
-                  alignItems: "center",
-                  marginTop: "10px",
                 }}
               >
-                <h5>RESUME-REACT</h5>
+                <a href="https://react-resume-five.vercel.app/">
+                  <img
+                    src={ScreenshotResume}
+                    width="250px"
+                    height="130px"
+                    alt="Preview Screenshot of react-resume-five.vercel.app"
+                    style={{ cursor: "pointer" }}
+                  />
+                </a>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginTop: "10px",
+                  }}
+                >
+                  <h5>RESUME-REACT</h5>
+                </div>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  marginLeft: "20px",
+                }}
+              >
+                <a href="https://github.com/putiipong/Shopping">
+                  <img
+                    src={ScreenshotShopping}
+                    width="250px"
+                    height="130px"
+                    style={{ cursor: "pointer" }}
+                    alt="Preview Screenshot of Shopping"
+                  />
+                </a>
+
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginTop: "10px",
+                  }}
+                >
+                  <h5>SHOPPING-WEB</h5>
+                </div>
               </div>
             </div>
             <div
               style={{
                 display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                marginLeft: "20px",
+                justifyContent: "flex-start",
+                alignItems: "center",
+                marginTop: "20px",
               }}
             >
-              <a href="https://github.com/putiipong/Shopping">
-                <img
-                  src={ScreenshotShopping}
-                  width="250px"
-                  height="130px"
-                  style={{ cursor: "pointer" }}
-                  alt="Preview Screenshot of Shopping"
-                />
-              </a>
-
               <div
                 style={{
                   display: "flex",
+                  flexDirection: "column",
                   justifyContent: "center",
-                  alignItems: "center",
-                  marginTop: "10px",
                 }}
               >
-                <h5>SHOPPING-WEB</h5>
+                <a href="https://homeservice-iota.vercel.app/">
+                  <img
+                    src={ScreenshotHomeservice}
+                    width="250px"
+                    height="130px"
+                    style={{ cursor: "pointer" }}
+                    alt="Preview Screenshot of Shopping"
+                  />
+                </a>
+
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginTop: "10px",
+                  }}
+                >
+                  <h5>HOMESERVICE-WEB</h5>
+                </div>
               </div>
             </div>
           </div>
+
           <div
             style={{
               display: "flex",

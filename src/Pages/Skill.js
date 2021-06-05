@@ -22,15 +22,22 @@ export default function Skill() {
           src={endtagskill}
           height="98px"
           style={{ marginLeft: "80px" }}
+          alt="skill"
         />
-        <img src={htmllogo} height="98px" />
-        <img src={csslogo} height="98px" />
-        <img src={javascriptlogo} height="98px" />
-        <img src={Reactlogo} height="98px" />
+        <img src={htmllogo} height="98px" alt="skill" />
+        <img src={csslogo} height="98px" alt="skill" />
+        <img src={javascriptlogo} height="98px" alt="skill" />
+        <img
+          className="rotate-center"
+          src={Reactlogo}
+          height="98px"
+          alt="skill"
+        />
         <img
           className="tag"
           src={tagskill}
           height="98px"
+          alt="skill"
           style={{ marginRight: "80px" }}
         />
       </div>
